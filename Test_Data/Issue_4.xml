@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gw:GWallInfo xsi:schemaLocation="http://glasswall.com/namespace/gwallInfo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gw="http://glasswall.com/namespace">
+	<gw:DocumentStatistics>
+		<gw:DocumentSummary>
+			<gw:TotalSizeInBytes>0</gw:TotalSizeInBytes>
+			<gw:FileType>docx</gw:FileType>
+			<gw:Version>Not Applicable</gw:Version>
+		</gw:DocumentSummary>
+		<gw:ContentManagementPolicy>
+			<gw:Camera cameraName="pdfConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>javascript</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>acroform</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>actions_all</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>value_outside_reasonable_limits</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="wordConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>disallow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>disallow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>dynamic_data_exchange</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="pptConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="xlsConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>metadata</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>macros</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_files</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>internal_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>external_hyperlinks</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>review_comments</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>dynamic_data_exchange</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+				<gw:ContentSwitch>
+					<gw:ContentName>embedded_images</gw:ContentName>
+					<gw:ContentValue>sanitise</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+			<gw:Camera cameraName="tiffConfig">
+				<gw:ContentSwitch>
+					<gw:ContentName>geotiff</gw:ContentName>
+					<gw:ContentValue>allow</gw:ContentValue>
+				</gw:ContentSwitch>
+			</gw:Camera>
+		</gw:ContentManagementPolicy>
+		<gw:ContentGroups groupCount="1">
+			<gw:ContentGroup>
+				<gw:BriefDescription>Document Processing Instances</gw:BriefDescription>
+				<gw:ContentItems itemCount="0" />
+				<gw:SanitisationItems itemCount="0" />
+				<gw:RemedyItems itemCount="0" />
+				<gw:IssueItems itemCount="1">
+					<gw:IssueItem>
+						<gw:TechnicalDescription> File size is zero</gw:TechnicalDescription>
+						<gw:IssueId>96</gw:IssueId>
+						<gw:InstanceCount>1</gw:InstanceCount>
+						<gw:RiskLevel>Medium</gw:RiskLevel>
+					</gw:IssueItem>
+				</gw:IssueItems>
+			</gw:ContentGroup>
+		</gw:ContentGroups>
+		<gw:ExtractedItems itemCount="0" />
+	</gw:DocumentStatistics>
+</gw:GWallInfo>
